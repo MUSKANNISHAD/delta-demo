@@ -1,0 +1,17 @@
+div{
+    height:35px;
+    width:80%;
+    background-color: black;
+    border-radius: 20px;
+    opacity:0.75;
+    margin-left: 6rem;
+}
+div:hover{
+    opacity:1;
+}
+p{
+    color:#fff;
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+    font-weight: 100;
+}

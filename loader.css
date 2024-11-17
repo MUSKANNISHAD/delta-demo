@@ -1,0 +1,30 @@
+#loader{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    border:15px solid  yellow;
+    border-top: 15px solid green;
+    animation: spines 2s linear 3s infinite;
+}
+@keyframes spin{
+    0%{
+    border-top: 15px solid green;
+    }
+    25%{
+    border-right: 15px solid green;
+    }
+    75%{
+    border-bottom: 15px solid green;
+    }
+    100%{
+    border-left: 15px solid green;
+    }
+}
+@keyframes spines{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
