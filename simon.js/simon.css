@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.outer{
+    height:500px;
+    width:500px;
+    border:10px solid black;
+    display: flex;
+    margin-left: 30rem;
+    justify-content: center;
+}
+.box{
+    height:150px;
+    width:150px;
+    border:2px solid black;
+    margin:2rem;
+
+}
+
+
+.pink{
+    background-color: palevioletred;
+    border-radius:20%;
+    
+}
+.green{
+    background-color: green;
+    border-radius:20%;
+
+}
+.blue{
+    background-color:blue;
+    border-radius:20%;
+
+}
+.orange{
+    background-color: orange;
+    border-radius:20%;
+
+}
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: purple;
+}
