@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="logo.png">
     <link rel="stylesheet" href="spotify.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +17,7 @@
     <div class="main"> 
       <div class="sidebar">
         <div class="nav"> 
-          <div class="nav-option">
+          <div class="nav-option   sticky-top" >
             <i class="fa-solid fa-house"></i>
             <a href="#" >Home</a>
           </div>
@@ -38,7 +40,7 @@
             <div class="lib-boxes">
               <div class="boxes">  
                 <p class="box">Create your first Playlist</p>
-                <p class="para">It's easy,we will help you<p>
+                <p class="para">It's easy,we will help you</p>
                 <button class="badges">Create Playlist</button>
               </div>
               <div class="boxes2 ">  
@@ -50,17 +52,27 @@
           </div>
         </div>
        <div class="maincontent">
-         <div class="sticky-nav">
+         <div class="container sticky-nav">
            <div class="icon"> 
               <img src="backward_icon.png">
               <img src="forward_icon.png" class="hide">
             </div>
+            <div class="search-bar">
+              <div class="search">
+                <div class="search-outer">
+              <i  style="opacity: 0.8;" class="fa-solid fa-magnifying-glass"></i>
+              </div>
+                What do you want to play?
+              </div>
+            </div>
            <div class="badges"> 
              <button class="badges">Explore Premium</button>
-             <button class="badges"style="background-color:black;color:white;"><i class="fa-regular fa-circle-down" ></i> install App</button>
+             <button class="badges"style="background-color:black;color:white;">
+              <i class="fa-regular fa-circle-down" >&nbsp;&nbsp;</i> install App</button>
              <i class="fa-regular fa-user"></i>
            </div>
           </div>
+          
           <h2>Recently Played</h2>
           <div class="cards-container">
             <div class="cards">
@@ -118,16 +130,8 @@
           <div class="line"></div>
         </div>
         <div class="musicplayer">
-           <div class="album">
-             <img src="album_picture.jpeg" style="height:5rem;">
-             <div>
-               <h3>Daylight</h3>
-               <p>Diljit Dosanjh</p>
-              </div>
-              <img src="album_icon1.png" style="height:2rem;">
-              <img src="album_icon2.png" style="height:2rem;">
-            </div>
-            <div class="player">
+          <div  style="visibility: hidden;">hii</div>
+          <div class="player">
               <div class="player-control">
                 <img src="player_icon1.png" class="player-icon">
                 <img src="player_icon2.png" class="player-icon">
@@ -140,8 +144,8 @@
                 <input type="range" min="0" max="100" class="range-bar" step="1">
                 <span class="total=time">3:50</span>
               </div>
-
             </div>
+
            <div class="control">
             <div class="control-panel">
               <img src="controls_icon1.png" class="control-icon" style="height:3rem;">
@@ -150,8 +154,6 @@
               <img src="controls_icon4.png"class="control-icon" style="margin-right:0rem;">
               <img src="controls_icon5.png"class="control-icon" style="height:3rem;">
               <input type="range" class="control-bar">
-
-
             </div>
            </div>
           </div>
